@@ -8,7 +8,7 @@
  <br/>
 
  <div class="left">
-    ![Adam](assets/images/Adam_Pritzl.JPG)
+    ![Adam](assets/Adam_Pritzl.JPG)
  </div>
  <div class="right">
     <ul>
