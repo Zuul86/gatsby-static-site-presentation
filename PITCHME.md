@@ -46,4 +46,76 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 * Page
 
 Note: Html - html, head, body tags. <br /> 
-Layout - main parts of site menu, header, footer.<br /> Page template - used for programmatically building pages. <br /> Page - 
+Layout - main parts of site menu, header, footer.<br /> Page template - used for programmatically building pages. <br /> Page - just like how it sounds, these components get compiled into pages
+
+---
+
+## Do I need Webpack?
+
+### Probably not
+
+---
+
+## Plugins FTW!
+
+- Sourcing Data
+- Transforming Data
+- Creating pages, sitemaps, RSS feeds...
+- Writing things into the HTML like meta tags, js snippets
+- Modifying webpack config
+
+---
+
+### Plugins installed with NPM 
+### Setup in gatsby-config.js
+
+```javascript
+module.exports = {
+  siteMetadata: {
+    title: "Adam Pritzl - Software Developer/Consultant",
+    author: "Adam Pritzl",
+    email: "zuul86@gmail.com"
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files"
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-108122421-1`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+  ],
+};
+
+```
+---
+
