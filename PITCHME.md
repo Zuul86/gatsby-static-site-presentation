@@ -1,5 +1,5 @@
 # Gatsby
-
+![Gatsby](https://github.com/Zuul86/gatsby-static-site-presentation/blob/master/assets/gatsby.svg)
 ## A static site generator built on React!
 
 ---
@@ -119,3 +119,29 @@ module.exports = {
 ```
 ---
 
+## Plugin Examples
+
+- gatsby-source-filesystem - Creates File nodes from the file system
+- gatsby-source-wordpress - Used to pull data from WordPress into Gatsby
+- gatsby-transformer-remark - Parses markdown files
+- gatsby-transformer-json - Parses JSON strings into objects
+- gatsby-plugin-feed - Used to create an RSS feed
+- gatsby-plugin-typescript - Typescript and TSX report
+
+---
+
+# How do we get data?
+
+---
+
+## GraphQL
+
+<img src="http://graphql.org/img/logo.svg" width="50%" />
+
+Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
+
+--
+
+## Deployment & Hosting
+
+--
