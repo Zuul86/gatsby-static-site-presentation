@@ -1,5 +1,5 @@
 # Gatsby
-![Gatsby](https://github.com/Zuul86/gatsby-static-site-presentation/blob/master/assets/gatsby.svg)
+![Gatsby](https://raw.githubusercontent.com/Zuul86/gatsby-static-site-presentation/master/assets/gatsby.svg)
 ## A static site generator built on React!
 
 ---
