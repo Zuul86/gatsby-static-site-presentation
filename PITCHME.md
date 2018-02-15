@@ -180,9 +180,10 @@ http://localhost:8000/___graphql
 
 @fa[envelope-square] zuul86@gmail.com
 
+@fa[link] https://www.adampritzl.com
 ---
 
 ## Slides
-@fa[link-square] http://goog.gl/stuff
+@fa[link] http://goog.gl/stuff
 
 --
