@@ -2,5 +2,5 @@ theme : moon
 remote-control: true
 remote-control-prevkey: 38
 remote-control-nextkey: 40
-slide-number : true
+slide-number : false
 theme-override: assets/PITCHME.css
