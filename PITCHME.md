@@ -1,16 +1,17 @@
 # Gatsby
-![Gatsby](assets/gatsby.png)
-## A static site generator built on React!
 
+<img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="300">
+
+### A static site generator built on React!
 ---
 
-# Adam Pritzl
+## Adam Pritzl
 
 ![Adam](assets/Adam_Pritzl.png)
 
-* Consultant With Centare
 * 15+ years developer XP
-* C# / .NET / Javascript, React, Angular...
+* C# / .NET / JavaScript, React, Angular...
+* Consultant with Centare
 * Love learning and sharing
 
 ---
@@ -21,7 +22,7 @@ Note: What is it?  Why would you use it?
 
 ---
 
-# Getting Started
+## Getting Started
 
 ```shell
 npm install --global gatsby-cli
@@ -52,7 +53,7 @@ Layout - main parts of site menu, header, footer.<br /> Page template - used for
 
 ## Do I need Webpack?
 
-### Probably not
+### _Probably not_
 
 ---
 
@@ -63,6 +64,17 @@ Layout - main parts of site menu, header, footer.<br /> Page template - used for
 - Creating pages, sitemaps, RSS feeds...
 - Writing things into the HTML like meta tags, js snippets
 - Modifying webpack config
+
+---
+
+## Plugin Examples
+
+- **gatsby-source-filesystem**
+- **gatsby-source-wordpress**
+- **gatsby-transformer-remark** 
+- **gatsby-transformer-json** 
+- **gatsby-plugin-feed**
+- **gatsby-plugin-typescript**
 
 ---
 
@@ -119,29 +131,49 @@ module.exports = {
 ```
 ---
 
-## Plugin Examples
-
-- gatsby-source-filesystem - Creates File nodes from the file system
-- gatsby-source-wordpress - Used to pull data from WordPress into Gatsby
-- gatsby-transformer-remark - Parses markdown files
-- gatsby-transformer-json - Parses JSON strings into objects
-- gatsby-plugin-feed - Used to create an RSS feed
-- gatsby-plugin-typescript - Typescript and TSX report
-
----
-
 # How do we get data?
 
 ---
 
 ## GraphQL
 
-<img src="http://graphql.org/img/logo.svg" width="50%" />
+<img src="http://graphql.org/img/logo.svg" width="300" />
 
 Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
 
---
+---
+## GraphQL
+### Demo
+
+```shell
+http://localhost:8000/___graphql
+```
+
+---
 
 ## Deployment & Hosting
 
---
+- Amazon S3
+- GitHub Pages
+- Netlify
+- Surge.sh
+
+---
+
+<img src="assets/full-logo-dark.png" alt="Netlify" width="400" />
+
+- Continuous Delivery
+- Free SSL
+- Global CDN
+- Cached Dependencies for _Fast_ builds
+
+---
+## Thank you!
+
+##### Adam Pritzl
+
+||| 
+|-------------| -------------|
+|@fa[twitter-square] Zuul86|@fa[link] https://www.adampritzl.com|
+|@fa[linkedin-square] apritzl|@fa[link] **Slides** https://goo.gl/WKGoub|
+|@fa[github-square] Zuul86|@fa[envelope-square] zuul86@gmail.com| 

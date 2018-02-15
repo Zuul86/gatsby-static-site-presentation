@@ -1,0 +1,17 @@
+.reveal section img {
+    border: 0;
+    box-shadow: none;
+    background: none;
+}
+
+.reveal table th, .reveal table td{
+    border-bottom: none;
+}
+
+.reveal a {
+    color: inherit;
+}
+
+#graphql {
+    text-transform: none;
+}
