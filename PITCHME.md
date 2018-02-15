@@ -5,7 +5,7 @@
 ### A static site generator built on React!
 ---
 
-# Adam Pritzl
+## Adam Pritzl
 
 ![Adam](assets/Adam_Pritzl.png)
 
@@ -22,7 +22,7 @@ Note: What is it?  Why would you use it?
 
 ---
 
-# Getting Started
+## Getting Started
 
 ```shell
 npm install --global gatsby-cli
