@@ -145,6 +145,10 @@ Note: Works similar to SQL.  Describe the data you want. Page and Layout compone
 ## GraphQL
 ### Demo
 
+```shell
+http://localhost:8000/___graphql
+```
+
 ---
 
 ## Deployment & Hosting
