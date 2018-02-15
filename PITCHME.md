@@ -53,7 +53,7 @@ Layout - main parts of site menu, header, footer.<br /> Page template - used for
 
 ## Do I need Webpack?
 
-### Probably not
+### _Probably not_
 
 ---
 
@@ -137,7 +137,7 @@ module.exports = {
 
 ## GraphQL
 
-<img src="http://graphql.org/img/logo.svg" width="50%" style="border-style: none;" />
+<img src="http://graphql.org/img/logo.svg" width="200" />
 
 Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
 
