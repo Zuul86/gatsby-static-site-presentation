@@ -1,6 +1,6 @@
 # Gatsby
 
-<img src="assets/gatsby.png" style="background-color: white; width: 25%; border-style: none;" />
+<img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="100">
 
 ### A static site generator built on React!
 ---
