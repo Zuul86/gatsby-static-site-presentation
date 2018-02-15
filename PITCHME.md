@@ -10,7 +10,7 @@
 ![Adam](assets/Adam_Pritzl.png)
 
 * 15+ years developer XP
-* C# / .NET / Javascript, React, Angular...
+* C# / .NET / JavaScript, React, Angular...
 * Consultant with Centare
 * Love learning and sharing
 
@@ -162,7 +162,7 @@ http://localhost:8000/___graphql
 
 <img src="assets/full-logo-dark.png" alt="Netlify" width="400" />
 
-- Continueous Delivery
+- Continuous Delivery
 - Free SSL
 - Global CDN
 - Cached Dependencies for _Fast_ builds
@@ -175,5 +175,5 @@ http://localhost:8000/___graphql
 ||| 
 |-------------| -------------|
 |@fa[twitter-square] Zuul86|@fa[link] https://www.adampritzl.com|
-|@fa[linkedin-square] apritzl|@fa[link] Slides https://goo.gl/WKGoub|
+|@fa[linkedin-square] apritzl|@fa[link] **Slides** https://goo.gl/WKGoub|
 |@fa[github-square] Zuul86|@fa[envelope-square] zuul86@gmail.com| 
