@@ -154,7 +154,13 @@ http://localhost:8000/___graphql
 ## Deployment & Hosting
 
 ---
+
 ### Thank you!
 
+Adam Pritzl
+
 @fa[twitter-square](Zuul86)
+@fa[github-square](Zuul86)
+@fa[linkedin](apritzl)
+@fa[envelope-square](zuul86@gmail.com)
 --
