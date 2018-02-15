@@ -67,6 +67,17 @@ Layout - main parts of site menu, header, footer.<br /> Page template - used for
 
 ---
 
+## Plugin Examples
+
+- **gatsby-source-filesystem** - Creates File nodes from the file system
+- **gatsby-source-wordpress** - Used to pull data from WordPress into Gatsby
+- **gatsby-transformer-remark** - Parses markdown files
+- **gatsby-transformer-json** - Parses JSON strings into objects
+- **gatsby-plugin-feed** - Used to create an RSS feed
+- **gatsby-plugin-typescript** - Typescript and TSX report
+
+---
+
 ### Plugins installed with NPM 
 ### Setup in gatsby-config.js
 
@@ -120,17 +131,6 @@ module.exports = {
 ```
 ---
 
-## Plugin Examples
-
-- **gatsby-source-filesystem** - Creates File nodes from the file system
-- **gatsby-source-wordpress** - Used to pull data from WordPress into Gatsby
-- **gatsby-transformer-remark** - Parses markdown files
-- **gatsby-transformer-json** - Parses JSON strings into objects
-- **gatsby-plugin-feed** - Used to create an RSS feed
-- **gatsby-plugin-typescript** - Typescript and TSX report
-
----
-
 # How do we get data?
 
 ---
@@ -140,6 +140,10 @@ module.exports = {
 <img src="http://graphql.org/img/logo.svg" width="50%" style="border-style: none;" />
 
 Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
+
+---
+## GraphQL
+### Demo
 
 ---
 
