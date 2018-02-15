@@ -4,6 +4,10 @@
     background: none;
 }
 
+.reveal table th, .reveal table td{
+    border-bottom: none;
+}
+
 #graphql {
     text-transform: none;
 }

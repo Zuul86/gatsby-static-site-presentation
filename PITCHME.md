@@ -173,7 +173,7 @@ http://localhost:8000/___graphql
 ##### Adam Pritzl
 
 ||| 
-| ------------- | ------------- |
-| @fa[twitter-square] Zuul86     | @fa[github-square] Zuul86 |
-| @fa[linkedin-square] apritzl    | @fa[envelope-square] zuul86@gmail.com      |
-| @fa[link] https://www.adampritzl.com | @fa[link] http://goog.gl/stuff     | 
+|-------------| -------------|
+|@fa[twitter-square] Zuul86|@fa[link] https://www.adampritzl.com|
+|@fa[linkedin-square] apritzl|@fa[link] http://goog.gl/stuff|
+|@fa[github-square] Zuul86|@fa[envelope-square] zuul86@gmail.com| 
