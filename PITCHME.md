@@ -175,5 +175,5 @@ http://localhost:8000/___graphql
 ||| 
 |-------------| -------------|
 |@fa[twitter-square] Zuul86|@fa[link] https://www.adampritzl.com|
-|@fa[linkedin-square] apritzl|@fa[link] http://goog.gl/stuff|
+|@fa[linkedin-square] apritzl|@fa[link] Slides http://goog.gl/stuff|
 |@fa[github-square] Zuul86|@fa[envelope-square] zuul86@gmail.com| 
