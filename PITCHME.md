@@ -5,7 +5,7 @@
 
 # Adam Pritzl
 
-![Adam](assets/Adam_Pritzl.png)
+![Adam](assets/Adam_Pritzl.png?classes=left)
 
 * Consultant With Centare
 * 15+ years developer XP
