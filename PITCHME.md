@@ -154,5 +154,7 @@ http://localhost:8000/___graphql
 ## Deployment & Hosting
 
 ---
-The End
+### Thank you!
+
+@fa[twitter-square](Zuul86)
 --
