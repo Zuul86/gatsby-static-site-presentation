@@ -34,7 +34,7 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ---
 
-# This is React
+# This is @fa[react] React @fa[react]
 # We use components here!
 
 ---
@@ -168,5 +168,3 @@ http://localhost:8000/___graphql
 @fa[envelope-square] zuul86@gmail.com
 
 @fa[link-square] http://goog.gl/stuff
-
----
