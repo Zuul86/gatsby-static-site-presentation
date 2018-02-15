@@ -8,6 +8,10 @@
     border-bottom: none;
 }
 
+.reveal a {
+    color: inherit;
+}
+
 #graphql {
     text-transform: none;
 }
