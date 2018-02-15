@@ -1,11 +1,13 @@
-<h1>Gatsby</h1>
+# Gatsby
+
 <img src="assets/gatsby.png" style="background-color: white; width: 25%; border-style: none;" />
-<h3>A static site generator built on React!</h3>
+
+### A static site generator built on React!
 ---
 
 # Adam Pritzl
 
-![Adam](assets/Adam_Pritzl.png?classes=left)
+![Adam](assets/Adam_Pritzl.png)
 
 * Consultant With Centare
 * 15+ years developer XP
