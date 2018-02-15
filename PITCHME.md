@@ -34,8 +34,8 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ---
 
-@fa[react] This is React @fa[react]
-We use components here!
+# This is React
+# We use components here!
 
 ---
 
@@ -153,8 +153,21 @@ http://localhost:8000/___graphql
 
 ## Deployment & Hosting
 
+- Amazon S3
+- Netlify
+- GitHub Pages
+- Surge.sh
+
 ---
 
+![Netlify](assets/full-logo-dark.png)
+
+- Continueous Delivery
+- Free SSL
+- Global CDN
+- Cached Dependencies for _Fast_ builds
+
+---
 ## Thank you!
 
 ##### Adam Pritzl
