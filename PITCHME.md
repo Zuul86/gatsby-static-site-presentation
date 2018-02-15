@@ -1,6 +1,6 @@
 # Gatsby
 
-<img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="100">
+<img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="300">
 
 ### A static site generator built on React!
 ---
@@ -137,7 +137,7 @@ module.exports = {
 
 ## GraphQL
 
-<img src="http://graphql.org/img/logo.svg" width="200" />
+<img src="http://graphql.org/img/logo.svg" width="300" />
 
 Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
 
