@@ -34,7 +34,7 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ---
 
-# This is @fa[react] React @fa[react]
+This is @fa[react] React @fa[react]
 # We use components here!
 
 ---
