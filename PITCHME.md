@@ -160,7 +160,7 @@ http://localhost:8000/___graphql
 
 ---
 
-![Netlify](assets/full-logo-dark.png)
+<img src="assets/full-logo-dark.png" alt="Netlify" width="400" />>
 
 - Continueous Delivery
 - Free SSL
