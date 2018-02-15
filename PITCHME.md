@@ -69,12 +69,12 @@ Layout - main parts of site menu, header, footer.<br /> Page template - used for
 
 ## Plugin Examples
 
-- **gatsby-source-filesystem** - Creates File nodes from the file system
-- **gatsby-source-wordpress** - Used to pull data from WordPress into Gatsby
-- **gatsby-transformer-remark** - Parses markdown files
-- **gatsby-transformer-json** - Parses JSON strings into objects
-- **gatsby-plugin-feed** - Used to create an RSS feed
-- **gatsby-plugin-typescript** - Typescript and TSX report
+- **gatsby-source-filesystem**
+- **gatsby-source-wordpress**
+- **gatsby-transformer-remark** 
+- **gatsby-transformer-json** 
+- **gatsby-plugin-feed**
+- **gatsby-plugin-typescript**
 
 ---
 
