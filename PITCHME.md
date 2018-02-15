@@ -154,8 +154,8 @@ http://localhost:8000/___graphql
 ## Deployment & Hosting
 
 - Amazon S3
-- Netlify
 - GitHub Pages
+- Netlify
 - Surge.sh
 
 ---
