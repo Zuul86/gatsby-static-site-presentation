@@ -9,9 +9,9 @@
 
 ![Adam](assets/Adam_Pritzl.png)
 
-* Consultant With Centare
 * 15+ years developer XP
 * C# / .NET / Javascript, React, Angular...
+* Consultant with Centare
 * Love learning and sharing
 
 ---
