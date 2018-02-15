@@ -3,6 +3,6 @@
     box-shadow: none;
 }
 
-.left {
-    float: left;
+#graphql {
+    text-transform: none;
 }

@@ -1,5 +1,5 @@
 theme : moon
 remote-control: true
 remote-control-prevkey: 38
-remote-control-nextkey: 40
+remote-control-nextkey: 40s
 theme-override: assets/PITCHME.css
