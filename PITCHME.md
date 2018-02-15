@@ -185,5 +185,3 @@ http://localhost:8000/___graphql
 
 ## Slides
 @fa[link] http://goog.gl/stuff
-
---
