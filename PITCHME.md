@@ -155,9 +155,9 @@ http://localhost:8000/___graphql
 
 ---
 
-### Thank you!
+## Thank you!
 
-#### Adam Pritzl
+##### Adam Pritzl
 
 @fa[twitter-square](Zuul86)
 
@@ -166,5 +166,7 @@ http://localhost:8000/___graphql
 @fa[linkedin-square](apritzl)
 
 @fa[envelope-square](zuul86@gmail.com)
+
+@fa[link-square](http://goog.gl/stuff)
 
 ---
