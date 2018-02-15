@@ -1,7 +1,6 @@
-# Gatsby
-![Gatsby](assets/gatsby.png)
-## A static site generator built on React!
-
+<h1>Gatsby</h1>
+<img src="assets/gatsby.png" style="background-color: white; width: 25%; border-style: none;" />
+<h3>A static site generator built on React!</h3>
 ---
 
 # Adam Pritzl
@@ -121,12 +120,12 @@ module.exports = {
 
 ## Plugin Examples
 
-- gatsby-source-filesystem - Creates File nodes from the file system
-- gatsby-source-wordpress - Used to pull data from WordPress into Gatsby
-- gatsby-transformer-remark - Parses markdown files
-- gatsby-transformer-json - Parses JSON strings into objects
-- gatsby-plugin-feed - Used to create an RSS feed
-- gatsby-plugin-typescript - Typescript and TSX report
+- **gatsby-source-filesystem** - Creates File nodes from the file system
+- **gatsby-source-wordpress** - Used to pull data from WordPress into Gatsby
+- **gatsby-transformer-remark** - Parses markdown files
+- **gatsby-transformer-json** - Parses JSON strings into objects
+- **gatsby-plugin-feed** - Used to create an RSS feed
+- **gatsby-plugin-typescript** - Typescript and TSX report
 
 ---
 
@@ -136,12 +135,14 @@ module.exports = {
 
 ## GraphQL
 
-<img src="http://graphql.org/img/logo.svg" width="50%" />
+<img src="http://graphql.org/img/logo.svg" width="50%" style="border-style: none;" />
 
 Note: Works similar to SQL.  Describe the data you want. Page and Layout components get the data. Demo.
 
---
+---
 
 ## Deployment & Hosting
 
+---
+The End
 --
