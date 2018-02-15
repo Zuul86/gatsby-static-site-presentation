@@ -163,7 +163,7 @@ http://localhost:8000/___graphql
 
 @fa[github-square](Zuul86)
 
-@fa[linkedin](apritzl)
+@fa[linkedin-square](apritzl)
 
 @fa[envelope-square](zuul86@gmail.com)
 
