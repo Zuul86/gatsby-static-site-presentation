@@ -157,10 +157,14 @@ http://localhost:8000/___graphql
 
 ### Thank you!
 
-Adam Pritzl
+#### Adam Pritzl
 
 @fa[twitter-square](Zuul86)
+
 @fa[github-square](Zuul86)
+
 @fa[linkedin](apritzl)
+
 @fa[envelope-square](zuul86@gmail.com)
---
+
+---
