@@ -41,7 +41,6 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ## HTML
 
-
 ```html
 <html>
   <head>
@@ -50,11 +49,28 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
   </body>
 </html>
 ```
-@[1-2, 6]
+@[1-3, 6]
 
 ---
 
 ## Layout
+
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <Menu />
+    </header>
+    <!--Content-->
+    <footer>
+      <!--footer content -->  
+    </footer>
+  </body>
+</html>
+```
+@[5-7, 9-11]
 
 ---
 
