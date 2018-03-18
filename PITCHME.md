@@ -50,8 +50,7 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
   </body>
 </html>
 ```
-@[1-3]
-@[4]
+@[1-3, 6]
 
 ---
 
