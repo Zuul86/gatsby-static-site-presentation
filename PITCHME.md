@@ -39,15 +39,31 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ---
 
-## Gatsby Components
+## HTML
 
-* HTML
-* Layout
-* Page template
-* Page
 
-Note: Html - html, head, body tags. <br /> 
-Layout - main parts of site menu, header, footer.<br /> Page template - used for programmatically building pages. <br /> Page - just like how it sounds, these components get compiled into pages
+```html
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```
+@[1-3]
+@[4]
+
+---
+
+## Layout
+
+---
+
+## Page
+
+--
+
+## Page Component
 
 ---
 
