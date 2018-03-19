@@ -12,7 +12,11 @@
 * 15+ years developer XP
 * C# / .NET / JavaScript, React, Angular...
 * Consultant with Centare
+<<<<<<< HEAD
 * Love learning and sharing
+=======
+* Bought adampritzl.com & decided to build a site
+>>>>>>> gss-wip
 
 ---
 
@@ -39,15 +43,147 @@ Note: basic default, gatsby-material-starter, gatsby-typescript-starter, gatsby-
 
 ---
 
-## Gatsby Components
+## HTML
 
-* HTML
-* Layout
-* Page template
-* Page
+```html
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```
+@[1-3, 6]
 
-Note: Html - html, head, body tags. <br /> 
-Layout - main parts of site menu, header, footer.<br /> Page template - used for programmatically building pages. <br /> Page - just like how it sounds, these components get compiled into pages
+---
+
+## Layout
+
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <Menu />
+    </header>
+    <!--Content-->
+    <footer>
+      <!--footer content -->  
+    </footer>
+  </body>
+</html>
+```
+@[5-7, 9-11]
+
+---
+
+## Page Component
+
+```javascript
+class About extends ReactComponent {
+  render(){
+    return (
+      <div>
+        <!--About page content goes in here -->
+      </div>
+    );
+  }
+}
+```
+
+---
+
+## Page Template Setup - gatsby-node.js
+
+```javascript
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators;
+
+  return new Promise((resolve, reject) => {
+    const blogPost = path.resolve("./src/templates/blog-post.jsx");
+    resolve(
+      graphql(
+      `
+      {
+        allMarkdownRemark(limit: 1000) {
+          edges {
+            node {
+              frontmatter {
+                path
+              }
+            }
+          }
+        }
+      }
+      `).then(result => {
+        if (result.errors) {
+          console.log(result.errors);
+          reject(result.errors);
+        }
+
+        // Create blog posts pages.
+        _.each(result.data.allMarkdownRemark.edges, edge => {
+          createPage({
+            path: edge.node.frontmatter.path,
+            component: blogPost,
+            context: {
+              path: edge.node.frontmatter.path,
+            },
+          });
+        });
+      })
+    );
+  });
+};
+```
+
+---
+## Page Template Component
+
+```javascript
+class BlogPostTemplate extends React.Component {
+  render() {
+    const {markdownRemark: post} = this.props.data;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+
+    return (
+      <div className="blog-page">
+        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <h1>
+          {post.frontmatter.title}
+        </h1>
+        <p className="blog-date">
+          {post.frontmatter.date}
+        </p>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <hr />
+      </div>
+    );
+  }
+}
+
+export default BlogPostTemplate;
+
+export const pageQuery = graphql`
+  query BlogPostByPath($path: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      id
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+      }
+    }
+  }
+`;
+```
 
 ---
 
@@ -120,7 +256,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-108122421-1`,
+        trackingId: `UA-00000000-1`,
       },
     },
     `gatsby-plugin-offline`,
