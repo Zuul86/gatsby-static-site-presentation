@@ -12,11 +12,7 @@
 * 15+ years developer XP
 * C# / .NET / JavaScript, React, Angular...
 * Consultant with Centare
-<<<<<<< HEAD
-* Love learning and sharing
-=======
 * Bought adampritzl.com & decided to build a site
->>>>>>> gss-wip
 
 ---
 
