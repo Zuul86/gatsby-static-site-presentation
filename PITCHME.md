@@ -12,7 +12,7 @@
 * 15+ years developer XP
 * C# / .NET / JavaScript, React, Angular...
 * Consultant with Centare
-* Love learning and sharing
+* Bought adampritzl.com & decided to build a site
 
 ---
 
