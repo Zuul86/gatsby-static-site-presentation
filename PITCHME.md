@@ -90,7 +90,7 @@ class About extends ReactComponent {
 
 ---
 
-## Page Template Setup - gatsny-node.js
+## Page Template Setup - gatsby-node.js
 
 ```javascript
 exports.createPages = ({ graphql, boundActionCreators }) => {
